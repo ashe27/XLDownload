@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XLDownload", "src\XLDownload.csproj", "{D358B368-4EB6-464E-9A34-D7E2A632024F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo", "demo\Demo.csproj", "{D60B38B3-C26E-419D-BA49-3AF44D772503}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D358B368-4EB6-464E-9A34-D7E2A632024F} = {D358B368-4EB6-464E-9A34-D7E2A632024F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D358B368-4EB6-464E-9A34-D7E2A632024F}.Debug|x86.ActiveCfg = Debug|x86
+		{D358B368-4EB6-464E-9A34-D7E2A632024F}.Debug|x86.Build.0 = Debug|x86
+		{D358B368-4EB6-464E-9A34-D7E2A632024F}.Release|x86.ActiveCfg = Release|x86
+		{D358B368-4EB6-464E-9A34-D7E2A632024F}.Release|x86.Build.0 = Release|x86
+		{D60B38B3-C26E-419D-BA49-3AF44D772503}.Debug|x86.ActiveCfg = Debug|x86
+		{D60B38B3-C26E-419D-BA49-3AF44D772503}.Debug|x86.Build.0 = Debug|x86
+		{D60B38B3-C26E-419D-BA49-3AF44D772503}.Release|x86.ActiveCfg = Release|x86
+		{D60B38B3-C26E-419D-BA49-3AF44D772503}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
